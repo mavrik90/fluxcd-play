@@ -1,4 +1,4 @@
-# fluxcd-avaloshyn-test
+# fluxcd-play
 export GHUSER="mavrik90"
 
 fluxctl install \
