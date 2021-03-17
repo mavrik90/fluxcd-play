@@ -1,0 +1,5 @@
+syncGarbageCollection:
+  enabled: true
+
+git:
+  url: git@github.com:mavrik90/fluxcd-play
