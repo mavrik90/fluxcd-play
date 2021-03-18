@@ -4,7 +4,7 @@ export GITHUB_TOKEN=$TOKEN
 export GITHUB_USER="mavrik90"
 export GIT_REPO="fluxcd-play"
 export GIT_BRANCH="master"
-export GIT_PATH="./cluster1"
+export GIT_PATH="./clusters/my-cluster"
 
 flux bootstrap github \
   --owner=$GITHUB_USER \
