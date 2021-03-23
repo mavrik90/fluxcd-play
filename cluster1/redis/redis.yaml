@@ -1,0 +1,12 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: HelmChart
+metadata:
+  name: redis
+  namespace: default
+spec:
+  chart: redis
+  version: 10.5.x
+  sourceRef:
+    name: stable
+    kind: HelmRepository
+  interval: 1m
