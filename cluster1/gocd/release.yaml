@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: gocd
-      version: "1.32.0"
+      version: "1.37.0"
       sourceRef:
         kind: HelmRepository
         name: gocd
@@ -24,4 +24,4 @@ metadata:
   name: gocd
 spec:
   interval: 1m
-  url: https://charts.helm.sh/stable
+  url: https://gocd.github.io/helm-chart
