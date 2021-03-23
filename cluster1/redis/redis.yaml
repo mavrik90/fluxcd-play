@@ -4,7 +4,7 @@ metadata:
   name: stable
   namespace: default
 spec:
-  url: https://kubernetes-charts.storage.googleapis.com/
+  url: https://charts.helm.sh/stable
   interval: 10m
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta1
